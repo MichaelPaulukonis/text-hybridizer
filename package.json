@@ -4,10 +4,10 @@
   "license": "MIT",
   "description": "Combines senteces",
   "keywords": [
-      "node",
-      "nlp",
-      "text",
-      "epoetics""
+    "node",
+    "nlp",
+    "text",
+    "epoetics"
   ],
   "repository": {
     "type": "git",
@@ -38,5 +38,6 @@
     "rimraf": "^2.5.2"
   },
   "dependencies": {
+    "pos": "^0.3.0"
   }
 }
