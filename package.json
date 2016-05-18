@@ -2,7 +2,7 @@
   "name": "text-hybridizer",
   "version": "0.0.1",
   "license": "MIT",
-  "description": "Combines senteces",
+  "description": "Combines sentences",
   "keywords": [
     "node",
     "nlp",

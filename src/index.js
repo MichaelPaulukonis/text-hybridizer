@@ -414,7 +414,7 @@ var hybridizer = function(config) {
     if (colons && coinflip(0.5)) {
       logger('strategy: splitterPunct');
       strategy = splitterPunct;
-    } else if(ccs && coinflip(0.75)) {
+    } else if (ccs && coinflip(0.75)) {
       logger('strategy: splitterPos');
       strategy = splitterPos;
     } else if (nns && coinflip(0.8)) {
@@ -451,7 +451,6 @@ var hybridizer = function(config) {
     nounReplaceForward: replacer('NN', direction.forward),
     nounReplaceReverse: replacer('NN', direction.reverse)
   };
-
 };
 
 module.exports = hybridizer;

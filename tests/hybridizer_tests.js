@@ -2,7 +2,7 @@
 
 (function() {
 
-  var chai = require('chai'),
+    var chai = require('chai'),
       expect = chai.expect,
       hybridizer = require('../index.js')({log: false});
 
@@ -38,16 +38,6 @@
 
   });
 
-  // describe('processText tests', function() {
-
-  //   it('should return an non-zero-length array of string when provided with text', function() {
-  //     var templ = teamplatify.processText(sample);
-  //     expect(templ).to.be.an('array');
-  //     expect(templ).to.have.length.above(0);
-  //     expect(typeof templ[0]).to.be.a('string');
-  //   });
-
-  // });
 
 
   describe('main hybrize function', function() {
